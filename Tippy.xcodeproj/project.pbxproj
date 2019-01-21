@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0D1EFB521F587DB00E4FE26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D1EFB421F587DB00E4FE26 /* AppDelegate.swift */; };
+		C0D1EFB721F587DB00E4FE26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D1EFB621F587DB00E4FE26 /* ViewController.swift */; };
+		C0D1EFBA21F587DB00E4FE26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0D1EFB821F587DB00E4FE26 /* Main.storyboard */; };
+		C0D1EFBC21F587DD00E4FE26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0D1EFBB21F587DD00E4FE26 /* Assets.xcassets */; };
+		C0D1EFBF21F587DD00E4FE26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0D1EFBD21F587DD00E4FE26 /* LaunchScreen.storyboard */; };
+		C0D1EFCA21F587DD00E4FE26 /* TippyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D1EFC921F587DD00E4FE26 /* TippyTests.swift */; };
+		C0D1EFD521F587DD00E4FE26 /* TippyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D1EFD421F587DD00E4FE26 /* TippyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0D1EFC621F587DD00E4FE26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0D1EFA921F587DB00E4FE26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0D1EFB021F587DB00E4FE26;
+			remoteInfo = Tippy;
+		};
+		C0D1EFD121F587DD00E4FE26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0D1EFA921F587DB00E4FE26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0D1EFB021F587DB00E4FE26;
+			remoteInfo = Tippy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C0D1EFB121F587DB00E4FE26 /* Tippy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tippy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0D1EFB421F587DB00E4FE26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0D1EFB621F587DB00E4FE26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C0D1EFB921F587DB00E4FE26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0D1EFBB21F587DD00E4FE26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0D1EFBE21F587DD00E4FE26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0D1EFC021F587DD00E4FE26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0D1EFC521F587DD00E4FE26 /* TippyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TippyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0D1EFC921F587DD00E4FE26 /* TippyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TippyTests.swift; sourceTree = "<group>"; };
+		C0D1EFCB21F587DD00E4FE26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0D1EFD021F587DD00E4FE26 /* TippyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TippyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0D1EFD421F587DD00E4FE26 /* TippyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TippyUITests.swift; sourceTree = "<group>"; };
+		C0D1EFD621F587DD00E4FE26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0D1EFAE21F587DB00E4FE26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0D1EFC221F587DD00E4FE26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0D1EFCD21F587DD00E4FE26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0D1EFA821F587DB00E4FE26 = {
+			isa = PBXGroup;
+			children = (
+				C0D1EFB321F587DB00E4FE26 /* Tippy */,
+				C0D1EFC821F587DD00E4FE26 /* TippyTests */,
+				C0D1EFD321F587DD00E4FE26 /* TippyUITests */,
+				C0D1EFB221F587DB00E4FE26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0D1EFB221F587DB00E4FE26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0D1EFB121F587DB00E4FE26 /* Tippy.app */,
+				C0D1EFC521F587DD00E4FE26 /* TippyTests.xctest */,
+				C0D1EFD021F587DD00E4FE26 /* TippyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0D1EFB321F587DB00E4FE26 /* Tippy */ = {
+			isa = PBXGroup;
+			children = (
+				C0D1EFB421F587DB00E4FE26 /* AppDelegate.swift */,
+				C0D1EFB621F587DB00E4FE26 /* ViewController.swift */,
+				C0D1EFB821F587DB00E4FE26 /* Main.storyboard */,
+				C0D1EFBB21F587DD00E4FE26 /* Assets.xcassets */,
+				C0D1EFBD21F587DD00E4FE26 /* LaunchScreen.storyboard */,
+				C0D1EFC021F587DD00E4FE26 /* Info.plist */,
+			);
+			path = Tippy;
+			sourceTree = "<group>";
+		};
+		C0D1EFC821F587DD00E4FE26 /* TippyTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0D1EFC921F587DD00E4FE26 /* TippyTests.swift */,
+				C0D1EFCB21F587DD00E4FE26 /* Info.plist */,
+			);
+			path = TippyTests;
+			sourceTree = "<group>";
+		};
+		C0D1EFD321F587DD00E4FE26 /* TippyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C0D1EFD421F587DD00E4FE26 /* TippyUITests.swift */,
+				C0D1EFD621F587DD00E4FE26 /* Info.plist */,
+			);
+			path = TippyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0D1EFB021F587DB00E4FE26 /* Tippy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0D1EFD921F587DD00E4FE26 /* Build configuration list for PBXNativeTarget "Tippy" */;
+			buildPhases = (
+				C0D1EFAD21F587DB00E4FE26 /* Sources */,
+				C0D1EFAE21F587DB00E4FE26 /* Frameworks */,
+				C0D1EFAF21F587DB00E4FE26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tippy;
+			productName = Tippy;
+			productReference = C0D1EFB121F587DB00E4FE26 /* Tippy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0D1EFC421F587DD00E4FE26 /* TippyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0D1EFDC21F587DD00E4FE26 /* Build configuration list for PBXNativeTarget "TippyTests" */;
+			buildPhases = (
+				C0D1EFC121F587DD00E4FE26 /* Sources */,
+				C0D1EFC221F587DD00E4FE26 /* Frameworks */,
+				C0D1EFC321F587DD00E4FE26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0D1EFC721F587DD00E4FE26 /* PBXTargetDependency */,
+			);
+			name = TippyTests;
+			productName = TippyTests;
+			productReference = C0D1EFC521F587DD00E4FE26 /* TippyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C0D1EFCF21F587DD00E4FE26 /* TippyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0D1EFDF21F587DD00E4FE26 /* Build configuration list for PBXNativeTarget "TippyUITests" */;
+			buildPhases = (
+				C0D1EFCC21F587DD00E4FE26 /* Sources */,
+				C0D1EFCD21F587DD00E4FE26 /* Frameworks */,
+				C0D1EFCE21F587DD00E4FE26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0D1EFD221F587DD00E4FE26 /* PBXTargetDependency */,
+			);
+			name = TippyUITests;
+			productName = TippyUITests;
+			productReference = C0D1EFD021F587DD00E4FE26 /* TippyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0D1EFA921F587DB00E4FE26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Omar Habra";
+				TargetAttributes = {
+					C0D1EFB021F587DB00E4FE26 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					C0D1EFC421F587DD00E4FE26 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C0D1EFB021F587DB00E4FE26;
+					};
+					C0D1EFCF21F587DD00E4FE26 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C0D1EFB021F587DB00E4FE26;
+					};
+				};
+			};
+			buildConfigurationList = C0D1EFAC21F587DB00E4FE26 /* Build configuration list for PBXProject "Tippy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0D1EFA821F587DB00E4FE26;
+			productRefGroup = C0D1EFB221F587DB00E4FE26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0D1EFB021F587DB00E4FE26 /* Tippy */,
+				C0D1EFC421F587DD00E4FE26 /* TippyTests */,
+				C0D1EFCF21F587DD00E4FE26 /* TippyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0D1EFAF21F587DB00E4FE26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0D1EFBF21F587DD00E4FE26 /* LaunchScreen.storyboard in Resources */,
+				C0D1EFBC21F587DD00E4FE26 /* Assets.xcassets in Resources */,
+				C0D1EFBA21F587DB00E4FE26 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0D1EFC321F587DD00E4FE26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0D1EFCE21F587DD00E4FE26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0D1EFAD21F587DB00E4FE26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0D1EFB721F587DB00E4FE26 /* ViewController.swift in Sources */,
+				C0D1EFB521F587DB00E4FE26 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0D1EFC121F587DD00E4FE26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0D1EFCA21F587DD00E4FE26 /* TippyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0D1EFCC21F587DD00E4FE26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0D1EFD521F587DD00E4FE26 /* TippyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0D1EFC721F587DD00E4FE26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0D1EFB021F587DB00E4FE26 /* Tippy */;
+			targetProxy = C0D1EFC621F587DD00E4FE26 /* PBXContainerItemProxy */;
+		};
+		C0D1EFD221F587DD00E4FE26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0D1EFB021F587DB00E4FE26 /* Tippy */;
+			targetProxy = C0D1EFD121F587DD00E4FE26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0D1EFB821F587DB00E4FE26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0D1EFB921F587DB00E4FE26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0D1EFBD21F587DD00E4FE26 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0D1EFBE21F587DD00E4FE26 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0D1EFD721F587DD00E4FE26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0D1EFD821F587DD00E4FE26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0D1EFDA21F587DD00E4FE26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tippy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Main.Tippy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0D1EFDB21F587DD00E4FE26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tippy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Main.Tippy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C0D1EFDD21F587DD00E4FE26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TippyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Main.TippyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tippy.app/Tippy";
+			};
+			name = Debug;
+		};
+		C0D1EFDE21F587DD00E4FE26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TippyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Main.TippyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tippy.app/Tippy";
+			};
+			name = Release;
+		};
+		C0D1EFE021F587DD00E4FE26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TippyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Main.TippyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tippy;
+			};
+			name = Debug;
+		};
+		C0D1EFE121F587DD00E4FE26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TippyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Main.TippyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tippy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0D1EFAC21F587DB00E4FE26 /* Build configuration list for PBXProject "Tippy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0D1EFD721F587DD00E4FE26 /* Debug */,
+				C0D1EFD821F587DD00E4FE26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0D1EFD921F587DD00E4FE26 /* Build configuration list for PBXNativeTarget "Tippy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0D1EFDA21F587DD00E4FE26 /* Debug */,
+				C0D1EFDB21F587DD00E4FE26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0D1EFDC21F587DD00E4FE26 /* Build configuration list for PBXNativeTarget "TippyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0D1EFDD21F587DD00E4FE26 /* Debug */,
+				C0D1EFDE21F587DD00E4FE26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0D1EFDF21F587DD00E4FE26 /* Build configuration list for PBXNativeTarget "TippyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0D1EFE021F587DD00E4FE26 /* Debug */,
+				C0D1EFE121F587DD00E4FE26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0D1EFA921F587DB00E4FE26 /* Project object */;
+}
